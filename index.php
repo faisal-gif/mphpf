@@ -8,10 +8,11 @@ require_once 'controller/HomeController.php';
 
 // Here is the place for your model scripts.
 require_once 'model/StudentModel.php';
+require_once 'model/DosenModel.php';
 
 use m\Settings;
 use m\Application;
-
+use controller\HomeController;
 $settings = Settings::getInstance();
 
 // The app folder relative to your htdocs folder.
@@ -33,7 +34,10 @@ $settings->setDbConnection(array(
 $settings->setRoute(array(
     array('/', 'Home', 'index'),
     array('/index.php', 'Home', 'index'),
-    array('/add-new-student', 'Home', 'addStudent')
+    array('/add-new-student', 'Home', 'addStudent'),
+    array('/add-dosen', 'Home', 'dosen'),
+    array('/add-new-dosen', 'Home', 'addDosen'),
+   
     // Add your other routs here...
 
     // Below are some examples of other valid routing

@@ -15,7 +15,7 @@
             <b><a href="<?php echo $this->homeAddress(); ?>">M PHP Framework Sample App</a></b>
         </td>
         <td style="text-align: right; padding: 4px;">
-            <a href="<?php echo $this->homeAddress('/link_one'); ?>">Link One</a>
+            <a href="<?php echo $this->homeAddress('/add-dosen'); ?>">Dosen</a>
             <a href="<?php echo $this->homeAddress('/link_two'); ?>">Link Two</a>
             <a href="<?php echo $this->homeAddress('/link_three'); ?>">Link Three</a>
         </td>
