@@ -19,6 +19,16 @@ CREATE TABLE subject
     credit TINYINT
 );
 
+CREATE TABLE dosen
+(
+    nip VARCHAR(255) PRIMARY KEY,
+    nama VARCHAR(255) NOT NULL,
+    alamat TEXT,
+    prodi VARCHAR(255) NOT NULL,
+    jurusan VARCHAR(255) NOT NULL,
+    no_telp VARCHAR(50)
+);
+
 INSERT INTO student (name, address, phone_number) VALUES
 ('Ayu', 'Jl. Pisang Kipas No. 11 - Lowokwaru, Malang', '0812345666777'),
 ('Bella', 'Jl. Bunga Coklat No. 22 - Lowokwaru, Malang', '0812345666888'),
