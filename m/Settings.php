@@ -31,7 +31,7 @@ class Settings
         $this->_dbConnection = array(
 			'dbms'         => 'mysql',
             'server'       => 'localhost',
-            'database'     => '',
+            'database'     => 'mphp_sample_db',
             'username'     => '',
             'password'     => '',
             'die_on_error' => false
